@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script src="https://kit.fontawesome.com/cbeaa37f05.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.6/dist/simplebar.min.css" />
+    <script src="https://unpkg.com/simplebar@5.3.6/dist/simplebar.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__top col">
+            <div class="header__top-left">
+                <ul class="header-tem">
+                    <i class="fa-solid fa-cloud"></i>
+                    <div class="header-tem-content">
+                        <span id="child">14.4</span>
+                        <span id="c">c</span>
+                    </div>
+                    <span id="newY">New York</span>
+                </ul>
+            </div>
+            <div class="header__top-day">
+                <p>Wednesday, November 29, 2023</p>
+            </div>
+            <ul class="header__top-content">
+                <li>Sign in / Join</li>
+                <li>Blog</li>
+                <li>Forum</li>
+                <li>Buy now!</li>
+            </ul>
+            <ul class="header__top-social">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+                <li><i class="fa-brands fa-vimeo-v"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+        </div>
+        <div class="header__mid col">
+            <div class="header__mid-banner1">
+                <img src="assets/img/banner-img.png" alt="">
+            </div>
+            <div class="header__mid-banner2">
+                <img src="assets/img/newspaper-rec728.jpg" alt="">
+            </div>
+        </div>
+        <div class="header__bottom col">
+            <ul class="header__bottom-list">
+                <li>News</li>
+                <li>
+                    Fashion
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li>
+                    Gadgets
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li>Lifestyle</li>
+                <li>Video</li>
+                <li>
+                    Features
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+            </ul>
+            <div id="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <div class="content col">
+        <div class="content__trending">
+            <div class="content__trending-title">
+                <div class="title-trend">
+                    <span>Trending Now</span>
+                    <span>Another Big Apartment Project Slated for Broad Ripple Company</span>
+                </div>
+                <div class="title-next">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+            <div class="content_trending-image">
+                <div class="item-trending">
+                    <div class="thumnail-trending">
+                        <img src="assets/img/trendingl.jpg" alt="">
+                    </div>
+                    <div class="content-trending">
+                        <p class="tag">Fashion</p>
+                        <h3 class="title-img">WordPress News Magazine Charts the Most Chic and Fashionable Women of New
+                            York City</h3>
+                        <div class="wrap-trending">
+                            <p>Armin Vans</p>
+                            <span>-</span>
+                            <p>August 7, 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-trending">
+                    <div class="thumnail-trending">
+                        <img src="assets/img/trendingr1.jpg" alt="">
+                    </div>
+                    <div class="content-trending">
+                        <p class="tag">Gadgets</p>
+                        <h3 class="title-img">Game Changing Virtual Lorem ipsum dolor sit amet consectetur</h3>
+                    </div>
+                </div>
+                <div class="item-trending">
+                    <div class="thumnail-trending">
+                        <img src="assets/img/trendingr2.jpg" alt="">
+                    </div>
+                    <div class="content-trending">
+                        <p class="tag">Travel</p>
+                        <h3 class="title-img">Discover the Most Magical Sunset in Santorini</h3>
+                    </div>
+                </div>
+                <div class="item-trending">
+                    <div class="thumnail-trending">
+                        <img src="assets/img/trendingr3.jpg" alt="">
+                    </div>
+                    <div class="content-trending">
+                        <p class="tag">Reviews</p>
+                        <h3 class="title-img">Computer Filters Noise to Make You a Better Listener</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__miss">
+            <!-- LEFT -->
+            <div class="content__miss-left">
+                <div class="miss-top-title1">
+                    <p>Don't Miss</p>
+                    <ul>
+                        <li>All</li>
+                        <li>Style Hunter</li>
+                        <li>Vogue</li>
+                        <li>Health & Fitness</li>
+                        <li>Travel</li>
+                        <li>Gadgets</li>
+                        <li>More</li>
+                    </ul>
+                </div>
+                <div class="miss-top-content">
+                    <div class="content-l">
+                        <div class="img-l">
+                            <img src="assets/img/item1.jpg" alt="">
+                        </div>
+                        <div class="miss-left-content">
+                            <h2>Interior Designer and Maude Interiors by Yvonne Designs</h2>
+                            <span><span>Armin Vans</span> - August 7, 2019</span>
+                            <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                After gathering ourselves and our packs, we headed down to...</p>
+                            <div class="title-next ">
+                                <i class="fa-solid fa-angle-left"></i>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-r">
+                        <div class="content-r-child">
+                            <div class="img-r">
+                                <img src="assets/img/item2.jpg" alt="">
+                            </div>
+                            <div class="content-item">
+                                <p> Have a look around this bold and colourful 1930s semi in London</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="content-r-child">
+                            <div class="img-r">
+                                <img src="assets/img/item3.jpg" alt="">
+                            </div>
+                            <div class="content-item">
+                                <p>Outdoor Kitchen Decorating: Furnish and Accessorize with Flair</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="content-r-child">
+                            <div class="img-r">
+                                <img src="assets/img/item4.jpg" alt="">
+                            </div>
+                            <div class="content-item">
+                                <p>Interior Design Tips: Decorating to Celebrate the Great Outdoors</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="content-r-child">
+                            <div class="img-r">
+                                <img src="assets/img/item5.jpg" alt="">
+                            </div>
+                            <div class="content-item">
+                                <p>Citroen Could Revive the Third Car for Loeb/Breen Winning Couple</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first__column simplebar" id="scrollableContent">
+                    <div class="miss-top-title1 lifestyle-title">
+                        <p>LIFESTYLE NEWS</p>
+                        <ul>
+                            <li>All</li>
+                            <li>Travel</li>
+                            <li>Recipes</li>
+                            <li>Health & Fitness</li>
+                            <li>Music</li>
+                        </ul>
+                    </div>
+                    <div class="life-content">
+                        <div class="life-content-left">
+                            <div class="left-life-img1">
+                                <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                                    class="td-post-category">Architecture</a>
+                            </div>
+                            <div class="left-life-ct">
+                                <h2>Interior Designer and Maude Interiors by Yvonne Designs</h2>
+                                <span><span>Armin Vans</span> - August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs, we headed down to...</p>
+                            </div>
+                        </div>
+                        <div class="life-content-right">
+                            <div class="left-life-img2">
+                                <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                                    class="td-post-category">Architecture</a>
+                            </div>
+                            <div class="left-life-ct">
+                                <h2>Interior Designer and Maude Interiors by Yvonne Designs</h2>
+                                <span><span>Armin Vans</span> - August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs, we headed down to...</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="life-child">
+                        <div class="life-item">
+                            <img src="assets/img/life_item1.jpg" alt="">
+                            <div class="content">
+                                <p>Best Things You Can Do on a Solo Mountain Climb</p>
+                                <span>August 7, 2019</span>
+                            </div>
+
+                        </div>
+                        <div class="life-item">
+                            <img src="assets/img/life_item2.jpg" alt="">
+                            <div class="content">
+                                <p>Creative Decorating with Houseplants, from Floor to Ceiling</p>
+                                <span>August 7, 2019</span>
+                            </div>
+
+                        </div>
+                        <div class="life-item">
+                            <img src="assets/img/life_item3.jpg" alt="">
+                            <div class="content">
+                                <p>How To Use Basic Design Principles To Decorate Your Home</p>
+                                <span>August 7, 2019</span>
+                            </div>
+
+                        </div>
+                        <div class="life-item">
+                            <img src="assets/img/life_item4.jpg" alt="">
+                            <div class="content">
+                                <p>How to Burn Calories with Pleasant Activities</p>
+                                <span>August 7, 2019</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="title-next life-next ">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="miss-top-title1 home-title">
+                        <p>HOUSE DESIGN</p>
+                    </div>
+                    <div class="left__house">
+                        <div class="parent__house">
+                            <div class="left__house-child">
+                                <div class="img1"><a href="" class="td-post-category">Architecture</a></div>
+                                <h5>Modern Monochrome Home with Calm and Cosy Terrace and Steps</h5>
+                            </div>
+                            <div class="left__house-child">
+                                <div class="img2"><a href="" class="td-post-category">Architecture</a></div>
+                                <h5>Scandinavian Boho Three-bed Decorated with Neutral Tones</h5>
+                            </div>
+                            <div class="left__house-child">
+                                <div class="img3"><a href="" class="td-post-category">Architecture</a></div>
+                                <h5>Luxurious Four-Bedroom House with Roman Stone Bath House</h5>
+                            </div>
+                        </div>
+                        <div class="title-next">
+                            <i class="fa-solid fa-angle-left"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Performance training-->
+                <div class="left__training simplebar1">
+                    <div class="miss-top-title1 title-train">
+                        <p>PERFORMANCE TRAINING</p>
+                    </div>
+                    <div class="training__content">
+                        <div class="training__content-child">
+                            <div class="img"></div>
+                            <div class="content">
+                                <h2>KTM Marchetti Signs with Larranaga and Zanotti for Next Season</h2>
+                                <span><span>Armin Vans</span>- August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs,
+                                    we headed down to our homestay family’s small dining...</p>
+                            </div>
+                        </div>
+                        <div class="training__content-child">
+                            <div class="img"></div>
+                            <div class="content">
+                                <h2>Celebrating 25 Years Since Italy’s First Ever Touring Inclusion</h2>
+                                <span><span>Armin Vans</span>- August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs,
+                                    we headed down to our homestay family’s small dining...</p>
+                            </div>
+                        </div>
+                        <div class="training__content-child">
+                            <div class="img"></div>
+                            <div class="content">
+                                <h2>Rumors, Gossip and Unfounded Truths: Every Moto Release Story</h2>
+                                <span><span>Armin Vans</span>- August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs,
+                                    we headed down to our homestay family’s small dining...</p>
+                            </div>
+                        </div>
+                        <div class="training__content-child">
+                            <div class="img"></div>
+                            <div class="content">
+                                <h2>Are you Ready? Complete Recap of the Streer Rally Action Shootout</h2>
+                                <span><span>Armin Vans</span>- August 7, 2019</span>
+                                <p>We woke reasonably late following the feast and free flowing wine the night before.
+                                    After gathering ourselves and our packs,
+                                    we headed down to our homestay family’s small dining...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <div class="content__miss-right">
+                <div class="miss-top-title2">
+                    <p>Stay Connected</p>
+                </div>
+                <div class="miss-right-content-stay">
+                    <div class="miss-social">
+                        <div class="social-box">
+                            <div><i class="fa-brands fa-facebook-f"></i>
+                                <span>24,803</span>
+                                <span>Fans</span>
+                            </div>
+                            <span>LIKE</span>
+                        </div>
+                        <div class="social-box">
+                            <div> <i class="fa-brands fa-x-twitter"></i>
+                                <span>3,913</span>
+                                <span>Followers</span>
+                            </div>
+                            <span>FOLLOW</span>
+                        </div>
+                        <div class="social-box">
+                            <div><i class="fa-solid fa-play"></i>
+                                <span>21,400</span>
+                                <span>Subscribers</span>
+                            </div>
+                            <span>SUBSCRIBE</span>
+                        </div>
+                    </div>
+                    <div class="adver">
+                        <span>- Advertisement -</span>
+                        <img src="assets/img/buy.jpg" alt="">
+                    </div>
+                </div>
+                <div class="miss-top-title2 title-model">
+                    <p>MAKE IT MODERN</p>
+                </div>
+                <!-- Scroll - right 1 -->
+                <div class="scroll__right1">
+
+                </div>
+                <div class="model-content">
+                    <div class="model-content-child">
+                        <img src="assets/img/md1.jpg" alt="">
+                        <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                            class="td-post-category">Made in Model</a>
+                        <p>Urban Kitchen with Granite Tops, Exposed Bulb Lights and Island</p>
+                    </div>
+                    <div class="model-content-child">
+                        <img src="assets/img/md2.jpg" alt="">
+                        <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                            class="td-post-category">Made in Model</a>
+                        <p>Modern Bathroom with Metro Rocks, Large Plant and Neutral Tiles</p>
+                    </div>
+                    <div class="model-content-child">
+                        <img src="assets/img/md3.jpg" alt="">
+                        <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                            class="td-post-category">Made in Model</a>
+                        <p>Luxe Hallway with Chess Table Flooring and Large Rounded Windows</p>
+                    </div>
+                    <div class="model-content-child">
+                        <img src="assets/img/md4.jpg" alt="">
+                        <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                            class="td-post-category">Made in Model</a>
+                        <p>Man Agrees to Complete $50,000 Hereford Lighthouse Paint Job</p>
+                    </div>
+                </div>
+                <div class="title-next t-model">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="adver adver__tag">
+                    <span>- Advertisement -</span>
+                    <img src="assets/img/buy.jpg" alt="">
+                </div>
+                <div class="miss-top-title2 name-holiday">
+                    <p>HOLIDAY RECIPES</p>
+                </div>
+                <div class="content-holiday">
+                    <h2>Everyone Should Travel for Their Favorite Foods</h2>
+                    <span>
+                        <span>Armin Vans</span>
+                        - August 7, 2019
+                    </span>
+                    <div class="img-right-holiday">
+                        <a href="https://demo.tagdiv.com/newspaper_pro/category/tagdiv-design/tagdiv-architecture/"
+                            class="td-post-category">Recipes</a>
+                    </div>
+                    <p>
+                        We woke reasonably late following the feast and free flowing wine the night before.
+                        After gathering ourselves and our packs, we headed down to...</p>
+                </div>
+                <div class="title-next t-holiday">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Advertisement -->
+        <div class="adver__center">
+            <p>- Advertisement -</p>
+            <img src="assets/img/newspaper-rec728.jpg" alt="">
+        </div>
+        <div class="content__miss">
+            <div class="content__miss-left">
+                <!-- Latest content -->
+                <div class="left__latest simplebar2">
+                    <div class="miss-top-title1">
+                        <p>LATEST ARTICLES</p>
+                    </div>
+                    <div class="left__latest-content">
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Another Big Apartment Project Slated for Broad Ripple Company</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Patricia Urquiola Coats Transparent Glas Tables for Livings</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Ambrose Seeks Offers on Downtown Building for Apartments</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Taina Blue Retreat is a Converted Tower on the Greek Coast</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Interior Designer and Maude Interiors by Yvonne Designs</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Modern Monochrome Home with Calm and Cosy Terrace and Steps</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Scandinavian Boho Three-bed Decorated with Neutral Tones</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                        <div class="child">
+                            <div class="img"><a href="#" class="td-post-category">Interiors</a></div>
+                            <h2>Luxurious Four-Bedroom House with Roman Stone Bath House</h2>
+                            <span>August 7, 2019</span>
+                        </div>
+                    </div>
+                    <div class="paginate">
+                        <div class="box">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>...</span>
+                            <span>17</span>
+                            <span>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </div>
+                        <p>Page 1 of 17</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__miss-right">
+                <!-- Most popular -->
+                <div class="right__most">
+                    <div class="miss-top-title1">
+                        <p>MOST POPULAR</p>
+                    </div>
+                    <div class="right__most-content">
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="title-next">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <!-- Recent commment -->
+                <div class="right__recent">
+                    <div class="miss-top-title1">
+                        <p>RECENT COMMENTS</p>
+                    </div>
+                    <div class="content">
+                        <p>Mary Dill on <span>Another Big Apartment Project Slated for Broad Ripple Company</span></p>
+                        <p>Georgia Summer on <span>Patricia Urquiola Coats Transparent Glas Tables for Livings</span>
+                        </p>
+                        <p>Michael Brain on <span>Top Fashion Trends to Look for in Every Important Collection</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container col">
+            <div class="box-1">
+                <div class="box-child">
+                    <h2>EDITOR PICKS</h2>
+                    <div class="right__most-content">
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-child">
+                    <h2>POPULAR POSTS</h2>
+                    <div class="right__most-content">
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <div class="img"></div>
+                            <div class="ct">
+                                <p>Study 2020: Fake Engagement is Only Half the Problem</p>
+                                <span>August 7, 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-child">
+                    <h2>POPULAR CATEGORY</h2>
+                    <div class="child">
+                        <p>Racing</p>
+                        <p>20</p>
+                    </div>
+                    <div class="child">
+                        <p>Travel</p>
+                        <p>15</p>
+                    </div>
+                    <div class="child">
+                        <p>Interiors</p>
+                        <p>15</p>
+                    </div>
+                    <div class="child">
+                        <p>Architecture</p>
+                        <p>15</p>
+                    </div>
+                    <div class="child">
+                        <p>Make it Modern</p>
+                        <p>15</p>
+                    </div>
+                    <div class="child">
+                        <p>Decorating</p>
+                        <p>15</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="child">
+                    <img src="assets/img/footer.jpg" alt="">
+                </div>
+                <div class="child">
+                    <h2>ABOUT US</h2>
+                    <p>Newspaper is your news, entertainment, music fashion website. We provide you with the latest
+                        breaking news and videos straight from the entertainment industry.</p>
+                        <p>Contact us: <a href="">contact@yoursite.com</a></p>
+                </div>
+                <div class="child">
+                    <h2>FOLLOW US</h2>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-vk"></i>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-under">
+        <div class="box col">
+            <p>© Newspaper WordPress Theme by TagDiv</p>
+            <ul>
+                <li>Disclaimer</li>
+                <li>Privacy</li>
+                <li>Advertisement</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+      
+    </div>
+    <script>
+        var scrollbar = new SimpleBar(document.querySelector('.simplebar'));
+        var scrollbar1 = new SimpleBar(document.querySelector('.simplebar1'));
+        var scrollbar3 = new SimpleBar(document.querySelector('.simplebar2'));
+
+    </script>
+</body>
+
+</html>
